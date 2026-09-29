@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="MEDCARE – Book appointments, set medicine reminders, store prescriptions and access emergency help."
+    >
+
+    <title>MEDCARE – Your Personal Medical Assistant</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,0..144,300;1,0..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Accessibility -->
+    <div class="skip-nav">
+        <a href="#main-content">Skip to main content</a>
+    </div>
+
+    <div
+        id="live-region"
+        aria-live="polite"
+        aria-atomic="true">
+    </div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <nav id="site-nav" aria-label="Main navigation">
+
+        <div class="nav-wrap">
+
+            <a href="#" class="nav-logo" aria-label="MEDCARE Home">
+
+                <div class="logo-mark">
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true">
+                        <path d="M12 5v14M5 12h14"></path>
+                    </svg>
+                </div>
+
+                <span class="logo-word">
+                    MED<span>CARE</span>
+                </span>
+
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#features">
+                        Features
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#how-it-works">
+                        How It Works
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#meera">
+                        Meera AI
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sos">
+                        Emergency
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        class="nav-btn"
+                        id="login-nav-btn">
+                        Login
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <button
+                class="hamburger"
+                id="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main id="main-content">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-bg"></div>
+
+            <!-- ECG -->
+            <svg
+                class="ecg-line"
+                viewBox="0 0 1200 80"
+                preserveAspectRatio="none"
+                aria-hidden="true">
+
+                <path
+                    class="ecg-path"
+                    d="M0 40
+                       H180
+                       L210 40
+                       L230 10
+                       L250 70
+                       L270 40
+                       H430
+                       L450 40
+                       L470 20
+                       L490 60
+                       L510 40
+                       H700
+                       L730 40
+                       L750 5
+                       L775 75
+                       L795 40
+                       H980
+                       L1000 40
+                       L1020 20
+                       L1040 60
+                       L1060 40
+                       H1200">
+                </path>
+
+            </svg>
+
+
+            <div class="hero-inner">
+
+
+                <!-- Hero Text -->
+
+                <div class="hero-content">
+
+                    <div class="hero-eyebrow">
+
+                        <span class="eyebrow-dot"></span>
+
+                        Your personal medical assistant
+
+                    </div>
+
+
+                    <h1>
+                        Healthcare that
+                        <span class="accent">
+                            cares.
+                        </span>
+                    </h1>
+
+
+                    <p class="hero-desc">
+
+                        MEDCARE brings appointments,
+                        medicine reminders, prescriptions,
+                        emergency assistance and AI-powered
+                        health support into one simple place.
+
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <button
+                            class="btn-primary"
+                            id="get-started-btn">
+
+                            Get Started
+                            <span aria-hidden="true">→</span>
+
+                        </button>
+
+
+                        <a
+                            href="#features"
+                            class="btn-ghost">
+
+                            Explore Features
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Statistics -->
+
+                    <div class="hero-meta">
+
+                        <div class="meta-item">
+
+                            <div class="meta-num">
+                                24/7
+                            </div>
+
+                            <div class="meta-label">
+                                Support
+                            </div>
+
+                        </div>
+
+
+                        <div class="meta-item">
+
+                            <div class="meta-num">
+                                5+
+                            </div>
+
+                            <div class="meta-label">
+                                Health Tools
+                            </div>
+
+                        </div>
+
+
+                        <div class="meta-item">
+
+                            <div class="meta-num">
+                                1
+                            </div>
+
+                            <div class="meta-label">
+                                Smart Assistant
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Hero App Preview -->
+
+                <div class="hero-visual">
+
+                    <div class="app-card">
+
+                        <div class="card-glow"></div>
+
+
+                        <div class="app-topbar">
+
+                            <div class="topbar-row">
+
+                                <div>
+
+                                    <div class="tb-greeting">
+                                        Good morning
+                                    </div>
+
+                                    <div class="tb-name">
+                                        Welcome to MEDCARE
+                                    </div>
+
+                                </div>
+
+
+                                <div class="tb-avatar">
+                                    MC
+                                </div>
+
+                            </div>
+
+
+                            <div class="tb-date">
+                                Your health, simplified.
+                            </div>
+
+                        </div>
+
+
+                        <div class="module-grid">
+
+
+                            <div class="module">
+
+                                <span class="mod-icon">
+                                    📅
+                                </span>
+
+                                <div class="mod-name">
+                                    Appointments
+                                </div>
+
+                                <div class="mod-sub">
+                                    Manage visits
+                                </div>
+
+                            </div>
+
+
+                            <div class="module">
+
+                                <span class="mod-icon">
+                                    💊
+                                </span>
+
+                                <div class="mod-name">
+                                    Medicines
+                                </div>
+
+                                <div class="mod-sub">
+                                    Never miss a dose
+                                </div>
+
+                            </div>
+
+
+                            <div class="module">
+
+                                <span class="mod-icon">
+                                    📋
+                                </span>
+
+                                <div class="mod-name">
+                                    Prescriptions
+                                </div>
+
+                                <div class="mod-sub">
+                                    Keep records
+                                </div>
+
+                            </div>
+
+
+                            <div class="module">
+
+                                <span class="mod-icon">
+                                    🚨
+                                </span>
+
+                                <div class="mod-name">
+                                    SOS
+                                </div>
+
+                                <div class="mod-sub">
+                                    Emergency help
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="reminder-bar">
+
+                            <span class="rb-dot"></span>
+
+                            <span class="rb-med">
+                                Medicine reminder
+                            </span>
+
+                            <span class="rb-time">
+                                Stay on track
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Meera floating card -->
+
+                    <div class="meera-float">
+
+                        <div class="meera-avatar-sm">
+                            ✨
+                        </div>
+
+                        <div>
+
+                            <div class="meera-text">
+                                Meet Meera
+                            </div>
+
+                            <div class="meera-sub">
+                                Your AI health companion
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             FEATURES
+        ================================================== -->
+
+        <section id="features">
+
+            <div class="section-wrap">
+
+
+                <div class="features-head">
+
+                    <span class="section-tag">
+                        Everything in one place
+                    </span>
+
+                    <h2>
+                        Healthcare made
+                        <em>simpler.</em>
+                    </h2>
+
+                    <p class="section-desc">
+                        From routine appointments to emergency
+                        assistance, MEDCARE keeps your essential
+                        healthcare tools together.
+                    </p>
+
+                </div>
+
+
+                <div class="feat-grid">
+
+
+                    <!-- Appointment -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            📅
+                        </div>
+
+                        <h3>
+                            Book Appointments
+                        </h3>
+
+                        <p>
+                            Keep track of your upcoming doctor
+                            visits and manage appointments from
+                            one place.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Medicine -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            💊
+                        </div>
+
+                        <h3>
+                            Medicine Reminders
+                        </h3>
+
+                        <p>
+                            Set reminders for your medicines and
+                            stay consistent with your medication
+                            schedule.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Prescription -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            📋
+                        </div>
+
+                        <h3>
+                            Prescription Storage
+                        </h3>
+
+                        <p>
+                            Keep your prescription information
+                            organized and accessible.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AI -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Meera AI
+                        </h3>
+
+                        <p>
+                            Interact with your AI health companion
+                            for general health-related assistance.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SOS -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            🚨
+                        </div>
+
+                        <h3>
+                            Emergency SOS
+                        </h3>
+
+                        <p>
+                            Access emergency assistance quickly
+                            when you need it.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Accessibility -->
+
+                    <article class="feat-card reveal">
+
+                        <div class="feat-icon">
+                            ♿
+                        </div>
+
+                        <h3>
+                            Accessible Design
+                        </h3>
+
+                        <p>
+                            Designed with accessibility,
+                            responsive layouts and voice interaction
+                            in mind.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             HOW IT WORKS
+        ================================================== -->
+
+        <section id="how-it-works">
+
+            <div class="section-wrap">
+
+                <div class="centered">
+
+                    <span class="section-tag">
+                        Simple process
+                    </span>
+
+                    <h2>
+                        Your healthcare,
+                        <em>organized.</em>
+                    </h2>
+
+                    <p class="section-desc">
+                        Get started in a few simple steps.
+                    </p>
+
+                </div>
+
+
+                <div class="steps-grid">
+
+
+                    <div class="step reveal">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Create an account
+                        </h3>
+
+                        <p>
+                            Register with your basic details
+                            to create your MEDCARE account.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step reveal">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Add your health information
+                        </h3>
+
+                        <p>
+                            Add appointments, prescriptions and
+                            medicine reminders.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step reveal">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Stay on track
+                        </h3>
+
+                        <p>
+                            Use your dashboard and Meera to
+                            manage your healthcare information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DASHBOARD
+        ================================================== -->
+
+        <section id="dashboard">
+
+            <div class="section-wrap">
+
+                <div class="dashboard-header">
+
+                    <div>
+
+                        <span class="section-tag">
+                            Your dashboard
+                        </span>
+
+                        <h2>
+                            Everything at a
+                            <em>glance.</em>
+                        </h2>
+
+                        <p class="section-desc">
+                            Access your healthcare information
+                            from one central dashboard.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="dashboard-content"
+                    class="dashboard-grid">
+
+                    <!-- Dashboard content populated by JS -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MEERA AI
+        ================================================== -->
+
+        <section id="meera">
+
+            <div class="section-wrap">
+
+                <div class="meera-section">
+
+
+                    <div class="meera-intro">
+
+                        <span class="section-tag">
+                            AI Health Companion
+                        </span>
+
+                        <h2>
+                            Meet
+                            <em>Meera.</em>
+                        </h2>
+
+                        <p class="section-desc">
+                            Your friendly AI-powered health
+                            companion for general health information
+                            and assistance.
+                        </p>
+
+
+                        <div class="meera-features">
+
+                            <div>
+                                💬 Ask questions
+                            </div>
+
+                            <div>
+                                🎙️ Use your voice
+                            </div>
+
+                            <div>
+                                ♿ Accessibility focused
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Chat interface -->
+
+                    <div class="chat-card">
+
+                        <div class="chat-header">
+
+                            <div class="meera-avatar">
+                                ✨
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Meera
+                                </strong>
+
+                                <span>
+                                    AI Health Assistant
+                                </span>
+
+                            </div>
+
+                            <span class="online-dot"></span>
+
+                        </div>
+
+
+                        <div
+                            id="chat-messages"
+                            class="chat-messages">
+
+                            <div class="chat-message meera-message">
+
+                                <div class="message-avatar">
+                                    ✨
+                                </div>
+
+                                <div class="message-bubble">
+                                    Hi! I'm Meera. How can I
+                                    help you today?
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="chat-input-area">
+
+                            <input
+                                type="text"
+                                id="chat-input"
+                                placeholder="Ask Meera something..."
+                                aria-label="Message Meera">
+
+
+                            <button
+                                id="voice-btn"
+                                class="chat-action"
+                                aria-label="Voice input">
+
+                                🎙️
+
+                            </button>
+
+
+                            <button
+                                id="send-chat"
+                                class="chat-send"
+                                aria-label="Send message">
+
+                                ➤
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SOS
+        ================================================== -->
+
+        <section id="sos">
+
+            <div class="section-wrap">
+
+                <div class="sos-card">
+
+                    <div class="sos-content">
+
+                        <span class="section-tag">
+                            Emergency assistance
+                        </span>
+
+                        <h2>
+                            Need help
+                            <em>now?</em>
+                        </h2>
+
+                        <p>
+                            Use the emergency assistance option
+                            to quickly access emergency contacts
+                            and support.
+                        </p>
+
+
+                        <button
+                            id="sos-btn"
+                            class="btn-primary sos-button">
+
+                            🚨 Emergency SOS
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         LOGIN / REGISTER MODAL
+    ====================================================== -->
+
+    <div
+        id="auth-modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="auth-title"
+        hidden>
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-card">
+
+            <button
+                id="close-auth"
+                class="modal-close"
+                aria-label="Close">
+                ×
+            </button>
+
+
+            <div class="auth-header">
+
+                <div class="logo-mark">
+                    +
+                </div>
+
+                <h2 id="auth-title">
+                    Welcome to MEDCARE
+                </h2>
+
+                <p>
+                    Sign in to access your healthcare dashboard.
+                </p>
+
+            </div>
+
+
+            <!-- Login -->
+
+            <form id="login-form">
+
+                <div class="form-group">
+
+                    <label for="login-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="login-email"
+                        required
+                        autocomplete="email">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="login-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="login-password"
+                        required
+                        autocomplete="current-password">
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn-primary">
+
+                    Login
+
+                </button>
+
+            </form>
+
+
+            <!-- Register -->
+
+            <form
+                id="register-form"
+                hidden>
+
+                <div class="form-group">
+
+                    <label for="register-name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="register-name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="register-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="register-email"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="register-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="register-password"
+                        required
+                        minlength="6">
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn-primary">
+
+                    Create Account
+
+                </button>
+
+            </form>
+
+
+            <button
+                id="toggle-auth"
+                class="auth-toggle">
+
+                Don't have an account?
+                <strong>Register</strong>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-wrap">
+
+            <div class="footer-brand">
+
+                <a href="#" class="nav-logo">
+
+                    <div class="logo-mark">
+                        +
+                    </div>
+
+                    <span class="logo-word">
+                        MED<span>CARE</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Your personal medical assistant.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#features">
+                    Features
+                </a>
+
+                <a href="#how-it-works">
+                    How It Works
+                </a>
+
+                <a href="#meera">
+                    Meera AI
+                </a>
+
+                <a href="#sos">
+                    Emergency
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 MEDCARE. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
